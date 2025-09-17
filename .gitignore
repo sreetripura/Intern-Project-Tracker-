@@ -1,0 +1,29 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual env
+.venv/
+
+# Local env & secrets
+.env
+.env.*
+
+# Streamlit cache
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/state/
+
+# Outputs / large artifacts
+outputs/
+*.csv
+*.json
+*.parquet
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
